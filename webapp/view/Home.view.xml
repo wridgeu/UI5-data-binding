@@ -3,6 +3,8 @@
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc">
       <Page titleAlignment="Center" title="{i18n>title}">
-        <content></content>
+        <content>
+          <Text text="Hi, my name is Marco" ></Text>
+        </content>
       </Page>
 </mvc:View>
