@@ -28,7 +28,7 @@
   },
   "sap.ui5": {
     "rootView": {
-      "viewName": "com.mrb.UI5-Data-Binding.view.Home",
+      "viewName": "com.mrb.UI5-Data-Binding.view.App",
       "type": "XML",
       "async": true,
       "id": "rootView"
