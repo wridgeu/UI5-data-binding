@@ -43,8 +43,8 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 # Tutorial Steps
 
 * Step 1: No Data Binding :white_check_mark: [3e3bee0](https://github.com/SAPMarco/UI5-data-binding/commit/3e3bee0cdea2f37210a994014912f3574f40a918)
-* Step 2: Create a Model
-* Step 3: Create Property Binding
+* Step 2: Create a Model :white_check_mark: [24e6a13](https://github.com/SAPMarco/UI5-data-binding/commit/24e6a13b822b1d2c3a836fcb8ce4e181752da2bd)
+* Step 3: Create Property Binding :white_check_mark: [79ea293](https://github.com/SAPMarco/UI5-data-binding/commit/79ea2937a7b2d40937c1358f7c7a77b5a47a2103)
 * Step 4: Two-Way Binding
 * Step 5: One-Way Binding
 * Step 6: Resource Models
