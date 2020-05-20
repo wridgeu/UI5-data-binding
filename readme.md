@@ -2,13 +2,13 @@
 
 This repository is meant to serve as example for how data binding works within UI5. It is basically what happens when you work through the entire "Data-Binding"-Section within the official [UI5 documentation](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c).
 
-### Preview
-
-![](readme_src/Preview.png)
-
 ### Overview
 
 ![](readme_src/DataBindingOverview.png)
+
+### Preview
+
+![](readme_src/Preview.png)
 
 # Getting Started
 
