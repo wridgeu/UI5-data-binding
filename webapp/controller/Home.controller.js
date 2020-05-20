@@ -9,7 +9,10 @@ sap.ui.define(
     return BaseController.extend("com.mrb.UI5-Data-Binding.controller.Home", {
       onInit: function () {
         // Create a JSON model from an object literal
-        var oModel, oMessageManager;
+        var oModel, oMessageManager, oProductModel;
+
+        oProductModel = new JSONModel();
+		    oProductModel.loadData("./model/Products.json");
 
         oModel = new JSONModel({
           firstName: "Harry",
@@ -29,6 +32,9 @@ sap.ui.define(
         //the go-to way for global definition would be to define the model within the manifest.json-file
         //and retrieve it via "this.getOwnerComponent().getModel();"
         this.getView().setModel(oModel);
+
+        //set loaded JSON file as model with name 'products'
+		    this.getView().setModel(oProductModel, "products");
         
         //MessageManager is a singleton
         oMessageManager = sap.ui.getCore().getMessageManager();
