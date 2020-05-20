@@ -49,6 +49,7 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 5: One-Way Binding :white_check_mark: [cb37402](https://github.com/SAPMarco/UI5-data-binding/commit/cb37402fb19de5576590ccbcc70abf1d5a858a4c)
 * Step 6: Resource Models :white_check_mark: [7fe1738](https://github.com/SAPMarco/UI5-data-binding/commit/7fe1738b4a6685a7226ecd438d4cec364c084783)
 * Step 7: Resource Bundles and Multiple Languages :white_check_mark: [27418b9](https://github.com/SAPMarco/UI5-data-binding/commit/27418b99d57dc3253afdf871ffd2889a5055fee6)
+* Step 7 Addition: Reverted Step 6 & 7 as the Resource Model is handled in manifest.json nowadays :white_check_mark: [e4e3f1e](https://github.com/SAPMarco/UI5-data-binding/commit/e4e3f1ebcf5452258f0c7d7ba5fc20a6fa128d40)
 * Step 8: Binding Paths - Accessing Properties in Hierarchically Structured Models
 * Step 9: Formatting Values
 * Step 10: Property Formatting Using Data Types
