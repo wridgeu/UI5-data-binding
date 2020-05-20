@@ -1,6 +1,7 @@
 <mvc:View controllerName="com.mrb.UI5-Data-Binding.controller.Home" displayBlock="true" 
   xmlns="sap.m" 
   xmlns:l="sap.ui.layout" 
+  xmlns:core="sap.ui.core"
   xmlns:mvc="sap.ui.core.mvc">
   <Page titleAlignment="Center" title="{i18n>title}">
     <Panel headerText="{i18n>panel1HeaderText}" class="sapUiResponsiveMargin" width="auto">
@@ -40,29 +41,14 @@
     </Panel>
     <Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
       <content>
-        <List headerText="{i18n>productListTitle}" items="{products>/Products}">
-          <items>
-            <ObjectListItem press=".onItemSelected" type="Active" title="{products>ProductName}" number="{
-							parts: [
-								{path: 'products>UnitPrice'},
-								{path: '/currencyCode'}
-							],
-							type: 'sap.ui.model.type.Currency',
-							formatOptions: { showMeasure: false }
-						}" numberUnit="{/currencyCode}" numberState="{= ${products>UnitPrice} > ${/priceThreshold} ? 'Error' : 'Success' }">
-              <attributes>
-                <ObjectAttribute text="{products>QuantityPerUnit}"/>
-                <ObjectAttribute title="{i18n>stockValue}" text="{
-									parts: [
-										{path: 'products>UnitPrice'},
-										{path: 'products>UnitsInStock'},
-										{path: '/currencyCode'}
-									],
-									formatter: '.formatter.formatStockValue'
-								}"/>
-              </attributes>
-            </ObjectListItem>
-          </items>
+        <List id="ProductList" headerText="{i18n>productListTitle}" items="{
+					path: 'products>/Products',
+					factory: '.productListFactory'
+				}">
+          <dependents>
+            <core:Fragment fragmentName="com.mrb.UI5-Data-Binding.view.ProductSimple" type="XML"/>
+            <core:Fragment fragmentName="com.mrb.UI5-Data-Binding.view.ProductExtended" type="XML"/>
+          </dependents>
         </List>
       </content>
     </Panel>
