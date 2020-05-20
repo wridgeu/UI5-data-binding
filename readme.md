@@ -53,11 +53,11 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 8: Binding Paths - Accessing Properties in Hierarchically Structured Models :white_check_mark: [554f7ad](https://github.com/SAPMarco/UI5-data-binding/commit/554f7ad93b488ce5ee3e52c879cd8c462e0228d0)
 * Step 9: Formatting Values :white_check_mark: [d077849](https://github.com/SAPMarco/UI5-data-binding/commit/d07784944a58fecbce62b8f45177e4871110e547)
 * Step 10: Property Formatting Using Data Types :white_check_mark: [d0a74fd](https://github.com/SAPMarco/UI5-data-binding/commit/d0a74fd83d67e5055b137b198b3dde37288a2fe3) 
-* Step 11: Validation Using the Message Manager
-* Step 12: Aggregation Binding Using Templates
-* Step 13: Element Binding
-* Step 14: Expression Binding
-* Step 15: Aggregation Binding Using a Factory Function
+* Step 11: Validation Using the Message Manager :white_check_mark: [c1537fa](https://github.com/SAPMarco/UI5-data-binding/commit/c1537faac51972faa2356fa0c27828a4de7e921f) 
+* Step 12: Aggregation Binding Using Templates :white_check_mark: [c54bfd7](https://github.com/SAPMarco/UI5-data-binding/commit/c54bfd7d8c7d3bcee2ea54c528338297a7746efb)
+* Step 13: Element Binding :white_check_mark: [ff5114c](https://github.com/SAPMarco/UI5-data-binding/commit/ff5114c100ac587ef9bae4cde9ca8ede74d25fa0)
+* Step 14: Expression Binding :white_check_mark: [eb30253](https://github.com/SAPMarco/UI5-data-binding/commit/eb30253fb2d673da0de69ae06dbae7f7bb0b6292) 
+* Step 15: Aggregation Binding Using a Factory Function :white_check_mark: [3b8f0b0](https://github.com/SAPMarco/UI5-data-binding/commit/3b8f0b057b3e4cc91467248e1ac7e25fea2b1edf) 
 
 Implemented = :white_check_mark:
 
