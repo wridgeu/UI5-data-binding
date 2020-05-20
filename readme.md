@@ -73,3 +73,4 @@ For more information check:
 * [Aggregation Binding + Factory](https://sapui5.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7)
 * [Message Manager](https://sapui5.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6)
 * [Messages in UI5](https://sapui5.hana.ondemand.com/#/topic/62b1481d3e084cb49dd30956d183c6a0.html)
+* [Project Scaffolding with EasyUI5](https://github.com/SAP/generator-easy-ui5)
