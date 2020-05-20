@@ -2,8 +2,9 @@ sap.ui.define(
   [
     "com/mrb/UI5-Data-Binding/controller/BaseController",
     "sap/ui/model/json/JSONModel",
+    "sap/ui/model/BindingMode",
   ],
-  function (BaseController, JSONModel) {
+  function (BaseController, JSONModel, BindingMode) {
     "use strict";
 
     return BaseController.extend("com.mrb.UI5-Data-Binding.controller.Home", {
@@ -16,6 +17,7 @@ sap.ui.define(
           panelHeaderText: "Data Binding Basics",
         });
 
+        oModel.setDefaultBindingMode(BindingMode.OneWay);
         //Set model globally for all views/controls (dirty) "sap.ui.getCore().setModel(oModel);""
         //the go-to way for global definition would be to define the model within the manifest.json-file
         //and retrieve it via "this.getOwnerComponent().getModel();"
