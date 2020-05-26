@@ -65,11 +65,11 @@ Implemented = :white_check_mark:
 
 For more information check:
 
+* [Wiki - Binding Syntax](https://github.com/SAPMarco/SAPMarco.github.io/wiki/UI5-Binding-Syntax)
 * [UI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/68b9644a253741e8a4b9e4279a35c247)
 * [UI5 Walkthrough](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c)
 * [Getting Started](https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218.html)
 * [Each Step as Download](https://sapui5.hana.ondemand.com/#/entity/sap.ui.core.tutorial.databinding)
-* [Wiki - Binding Syntax](https://github.com/SAPMarco/SAPMarco.github.io/wiki/UI5-Binding-Syntax)
 * [Aggregation Binding + Factory](https://sapui5.hana.ondemand.com/#/topic/284a036c8ff943238fb65bf5a2676fb7)
 * [Message Manager](https://sapui5.hana.ondemand.com/#/topic/b8c4e534cdb440e9a5bbff86f9572bd6)
 * [Messages in UI5](https://sapui5.hana.ondemand.com/#/topic/62b1481d3e084cb49dd30956d183c6a0.html)
