@@ -63,8 +63,6 @@ Implemented = :white_check_mark:
 
 # Credits
 
-For more information check:
-
 * [Wiki - Binding Syntax](https://github.com/SAPMarco/SAPMarco.github.io/wiki/UI5-Binding-Syntax)
 * [UI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/68b9644a253741e8a4b9e4279a35c247)
 * [UI5 Walkthrough](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c)
