@@ -4,7 +4,8 @@ sap.ui.define(["com/mrb/UI5-Data-Binding/controller/BaseController"], function (
   "use strict";
 
   return BaseController.extend(
-    "com.mrb.UI5-Data-Binding.controller.App.Controller",
-    {}
+    "com.mrb.UI5-Data-Binding.controller.App.Controller", {
+
+    }
   );
 });

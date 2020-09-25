@@ -53,10 +53,8 @@ sap.ui.define(
         var oUIControl;
 
         // Decide based on the data which dependent to clone
-        if (
-          oContext.getProperty("UnitsInStock") === 0 &&
-          oContext.getProperty("Discontinued")
-        ) {
+        if (oContext.getProperty("UnitsInStock") === 0
+              && oContext.getProperty("Discontinued")) {
           // The item is discontinued, so use a StandardListItem
           oUIControl = this.byId("productSimple").clone(sId);
         } else {
