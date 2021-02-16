@@ -1,10 +1,8 @@
-sap.ui.define(
-  [
+sap.ui.define([
     "com/mrb/UI5-Data-Binding/controller/BaseController",
     "sap/ui/model/json/JSONModel",
     "sap/m/ObjectAttribute"
-  ],
-  function (BaseController, JSONModel, ObjectAttribute) {
+  ], function (BaseController, JSONModel, ObjectAttribute) {
     "use strict";
 
     return BaseController.extend("com.mrb.UI5-Data-Binding.controller.Home", {

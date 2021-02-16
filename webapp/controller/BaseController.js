@@ -4,13 +4,11 @@ sap.ui.define(
     "sap/ui/core/routing/History",
     "sap/ui/core/UIComponent",
     "com/mrb/UI5-Data-Binding/model/formatter",
-  ],
-  function (Controller, History, UIComponent, formatter) {
+  ], function (Controller, History, UIComponent, formatter) {
     "use strict";
 
-    return Controller.extend(
-      "com.mrb.UI5-Data-Binding.controller.BaseController",
-      {
+    return Controller.extend("com.mrb.UI5-Data-Binding.controller.BaseController", {
+
         formatter: formatter,
 
         /**
