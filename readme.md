@@ -2,15 +2,15 @@
 
 This repository is meant to serve as example for how data binding works within UI5. It is basically what happens when you work through the entire "Data-Binding"-Section within the official [UI5 documentation](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c).
 
-### Overview
+## Overview
 
 ![](readme_src/DataBindingOverview.png)
 
-### Preview
+## Preview
 
 ![](readme_src/Preview.png)
 
-# Getting Started
+## Getting Started
 
 You can just clone this repository, run npm install and use the [UI5 tooling](https://github.com/SAP/ui5-tooling) to locally serve the application in order to debug/learn from it.
 
@@ -40,7 +40,7 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Projectname: `UI5-Data-Binding`
 
 
-# Tutorial Steps
+## Tutorial Steps
 
 * Step 1: No Data Binding :white_check_mark: [3e3bee0](https://github.com/wridgeu/UI5-data-binding/commit/3e3bee0cdea2f37210a994014912f3574f40a918)
 * Step 2: Create a Model :white_check_mark: [24e6a13](https://github.com/wridgeu/UI5-data-binding/commit/24e6a13b822b1d2c3a836fcb8ce4e181752da2bd)
@@ -61,8 +61,9 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 
 Implemented = :white_check_mark:
 
-# Credits
+### Credits
 
+* [Check out JSONOModel](https://github.com/wozjac/jsono-model)
 * [Wiki - Binding Syntax](https://github.com/wridgeu/wridgeu.github.io/wiki/UI5-Binding-Syntax)
 * [UI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/68b9644a253741e8a4b9e4279a35c247)
 * [UI5 Walkthrough](https://sapui5.hana.ondemand.com/#/topic/e5310932a71f42daa41f3a6143efca9c)
