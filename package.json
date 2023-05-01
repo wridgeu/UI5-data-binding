@@ -6,7 +6,7 @@
     "directory": "https://github.com/wridgeu/UI5-data-binding"
   },
   "engines": {
-    "node": "16.X"
+    "node": "18.X"
   },
   "scripts": {
     "start": "ui5 serve -o index.html",
@@ -15,11 +15,11 @@
     "build:ui": "ui5 build --clean-dest --dest approuter/webapp "
   },
   "devDependencies": {
-    "@openui5/ts-types": "^1.110.0",
-    "@ui5/cli": "^3.0.0",
-    "eslint": "^8.34.0",
+    "@openui5/ts-types": "^1.113.0",
+    "@ui5/cli": "^3.1.1",
+    "eslint": "^8.39.0",
     "npm-run-all": "^4.1.5",
     "shx": "^0.3.4",
-    "ui5-middleware-livereload": "^0.7.2"
+    "ui5-middleware-livereload": "^0.8.2"
   }
 }
